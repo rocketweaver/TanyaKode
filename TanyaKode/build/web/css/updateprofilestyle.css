@@ -1,0 +1,21 @@
+.sign-img {
+    display: none;
+}
+
+.sign {
+    border: none;
+    justify-content: center;
+}
+
+.sign-form {
+    width: 50% !important;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--gray-border);
+}
+
+@media only screen and (max-width: 780px) {
+    .sign-form {
+        width: 100% !important;
+    }
+}
